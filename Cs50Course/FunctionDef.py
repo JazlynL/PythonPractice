@@ -1,6 +1,7 @@
-def hello(to="world"):
+def hello(to):
     print("hello", to)
     #function
-    hello()
-    name = input("what is your actual name ?")
-    hello(name)
+
+
+name = input("what is your actual name ?")
+hello(name)
